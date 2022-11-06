@@ -1,3 +1,4 @@
 env.py
 *.csv
 *lesson*
+data_tables/*
