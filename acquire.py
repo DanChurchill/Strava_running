@@ -23,7 +23,7 @@ def get_strava_token():
                                     'client_id': 96678,
                                     'client_secret': '10705c973422a20357c7b7f89d21fe8189c90ad3',
                                     'grant_type': 'refresh_token',
-                                    'refresh_token': strava_tokens['b4faf19c870a011ea3ead0d7a08af002d51b4ec8']
+                                    'refresh_token': strava_tokens['refresh_token']
                                     }
                         )
     #Save response as json in new variable
