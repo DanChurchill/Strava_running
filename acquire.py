@@ -5,6 +5,7 @@ import requests
 import json
 import time
 import env
+import os
 
 def get_strava_token():
     '''
@@ -12,7 +13,7 @@ def get_strava_token():
     returns token json
     '''
     ## get json from file
-    with open('strava_tokens.json') as json_file:
+    with open('Strava_running/strava_tokens.json') as json_file:
         strava_tokens = json.load(json_file)
     ## If access_token has expired then use the refresh_token to get the new access_token
     if strava_tokens['expires_at'] < time.time():
