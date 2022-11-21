@@ -154,4 +154,6 @@ def get_new_activities(depth=10):
     
     activities.to_sql('activities', env.get_url('leavitt_1861'), if_exists='append')
     
-    return activities
+    #return activities
+
+get_new_activities()
